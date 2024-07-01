@@ -12,6 +12,7 @@ void rota(char cadena[],int largo){
 	}
 	
 	cadena[0]=aux;
+	cout<<endl<<"La cadena aplicada la rotacion seria: ";
 	for(i=0;i<largo;i++){
 		cout<<cadena[i];
 	}
