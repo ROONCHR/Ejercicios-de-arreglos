@@ -16,7 +16,6 @@ void mistrcat(char str2[], char str3[], int tam1,int tam2){
     	str3[tam1s+i]=str2[i];
 	}
 
-	
     cout << "DESPUES: "<<str3;
 }
 
