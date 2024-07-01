@@ -16,7 +16,7 @@ void media(int numeros_aleatorios[]){
 }
 
 void mediana(int numeros_aleatorios[]){
-	cout<<endl<<"la mediana es: "<<numeros_aleatorios[14]<<" y "<<numeros_aleatorios[15]<<endl;
+	cout<<endl<<"la mediana es: "<<(numeros_aleatorios[14]+numeros_aleatorios[15])/2<<endl;
 }
 void moda(int numeros_aleatorios[]){
 	int contador=0,x=1,aux=1,moda_,i;
